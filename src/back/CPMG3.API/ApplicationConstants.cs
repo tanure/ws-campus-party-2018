@@ -25,6 +25,7 @@ namespace CPMG3.API
 
         public struct FeatureToggle
         {
+            public const string LISTAR_REPOSITORIOS = "listarRepositorios";
         }
     }
 }
