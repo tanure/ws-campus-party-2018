@@ -24,7 +24,7 @@ namespace CPMG3.API.Filter
             {
                 configCatClient.ForceRefresh();
 
-                if (!configCatClient.GetValue(ApplicationConstants.FeatureToggle.ACAO_EXCLUIR, false))
+                if (!configCatClient.GetValue(_toggleName, false))
                  context.Result = new NotFoundResult();
             }
         }
