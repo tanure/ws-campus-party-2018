@@ -7,7 +7,7 @@ namespace CPMG3.API.Service
 {
     public interface IGithubAPIService
     {
-        [Get("/users/<SEU_USUARIO>/repos")]
+        [Get("/users/tanure/repos")]
         Task<List<object>> GetRepositories();
     }
 }
