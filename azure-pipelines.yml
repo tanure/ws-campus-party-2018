@@ -19,4 +19,4 @@ steps:
   inputs:
     command: 'build'
     projects: '**/CPMG3.API.sln'
-    arguments: '-configuration $(buildConfiguration)'
+    arguments: '--configuration $(buildConfiguration)'
